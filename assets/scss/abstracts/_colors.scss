@@ -1,0 +1,269 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+
+    --surface-a: #ffffff;
+    --surface-b: #f8f9fa;
+    --surface-c: #e9ecef;
+    --surface-d: #dee2e6;
+    --surface-e: #ffffff;
+    --surface-f: #ffffff;
+    --surface-0: #ffffff;
+    --surface-50: #fafafa;
+    --surface-100: #f5f5f5;
+    --surface-200: #eeeeee;
+    --surface-300: #e0e0e0;
+    --surface-400: #bdbdbd;
+    --surface-500: #9e9e9e;
+    --surface-600: #757575;
+    --surface-700: #616161;
+    --surface-800: #424242;
+    --surface-900: #212121;
+    --blue: #007bff;
+    --blue-0: #e6f2ff;
+    --blue-50: #cce5ff;
+    --blue-100: #b3d7ff;
+    --blue-200: #99caff;
+    --blue-300: #80bdff;
+    --blue-400: #66b0ff;
+    --blue-500: #4da3ff;
+    --blue-600: #3395ff;
+    --blue-700: #1a88ff;
+    --blue-800: #007bff;
+    --blue-900: #006fe6;
+    --brown: #630000;
+    --brown-0: #d0b3b3;
+    --brown-100: #c19999;
+    --brown-200: #b18080;
+    --brown-300: #a16666;
+    --brown-400: #924d4d;
+    --brown-500: #823333;
+    --brown-600: #731a1a;
+    --brown-700: #630000;
+    --brown-800: #4f0000;
+    --brown-900: #3b0000;
+    --red: #cc0000;
+    --red-0: #fae6e6;
+    --red-50: #f5cccc;
+    --red-100: #f0b3b3;
+    --red-200: #eb9999;
+    --red-300: #e68080;
+    --red-400: #e06666;
+    --red-500: #db4d4d;
+    --red-600: #d63333;
+    --red-700: #d11a1a;
+    --red-800: #cc0000;
+    --red-900: #b80000;
+    --green: #1c7200;
+    --green-0: #e8f1e6;
+    --green-50: #d2e3cc;
+    --green-100: #bbd5b3;
+    --green-200: #a4c799;
+    --green-300: #8eb980;
+    --green-400: #77aa66;
+    --green-500: #609c4d;
+    --green-600: #498e33;
+    --green-700: #33801a;
+    --green-800: #1c7200;
+    --green-900: #196700;
+    --yellow: #ffcc00;
+    --yellow-0: #fffae6;
+    --yellow-50: #fff5cc;
+    --yellow-100: #fff0b3;
+    --yellow-200: #ffeb99;
+    --yellow-300: #ffe680;
+    --yellow-400: #ffe066;
+    --yellow-500: #ffdb4d;
+    --yellow-600: #ffd633;
+    --yellow-700: #ffd11a;
+    --yellow-800: #ffcc00;
+    --yellow-900: #e6b800;
+    --cyan: #17a2b8;
+    --cyan-50: #f2fcfd;
+    --cyan-100: #c2eff5;
+    --cyan-200: #91e2ed;
+    --cyan-300: #61d5e4;
+    --cyan-400: #30c9dc;
+    --cyan-500: #00bcd4;
+    --cyan-600: #00a0b4;
+    --cyan-700: #008494;
+    --cyan-800: #006775;
+    --cyan-900: #004b55;
+    --pink: #e83e8c;
+    --pink-0: #fdecf4;
+    --pink-50: #fad8e8;
+    --pink-100: #f8c5dd;
+    --pink-200: #f6b2d1;
+    --pink-300: #f49fc6;
+    --pink-400: #f18bba;
+    --pink-500: #ef78af;
+    --pink-600: #ed65a3;
+    --pink-700: #ea5198;
+    --pink-800: #e83e8c;
+    --pink-900: #d1387e;
+    --indigo: #6610f2;
+    --indigo-0: #f0e7fe;
+    --indigo-50: #e0cffc;
+    --indigo-100: #d1b7fb;
+    --indigo-200: #c29ffa;
+    --indigo-300: #b388f9;
+    --indigo-400: #a370f7;
+    --indigo-500: #9458f6;
+    --indigo-600: #8540f5;
+    --indigo-700: #7528f3;
+    --indigo-800: #6610f2;
+    --indigo-900: #5c0eda;
+    --teal: #20c997;
+    --teal-0: #d2f4ea;
+    --teal-50: #bcefe0;
+    --teal-100: #a6e9d5;
+    --teal-200: #90e4cb;
+    --teal-300: #79dfc1;
+    --teal-400: #63d9b6;
+    --teal-500: #4dd4ac;
+    --teal-600: #36cea1;
+    --teal-700: #20c997;
+    --teal-800: #1db588;
+    --teal-900: #1aa179;
+    --orange: #ff7200;
+    --orange-0: #fff1e6;
+    --orange-50: #ffe3cc;
+    --orange-100: #ffd5b3;
+    --orange-200: #ffc799;
+    --orange-300: #ffb980;
+    --orange-400: #ffaa66;
+    --orange-500: #ff9c4d;
+    --orange-600: #ff8e33;
+    --orange-700: #ff801a;
+    --orange-800: #ff7200;
+    --orange-900: #e66700;
+    --purple: #6f42c1;
+    --purple-0: #f1ecf9;
+    --purple-50: #e2d9f3;
+    --purple-100: #d4c6ec;
+    --purple-200: #c5b3e6;
+    --purple-300: #b7a1e0;
+    --purple-400: #a98eda;
+    --purple-500: #9a7bd4;
+    --purple-600: #8c68cd;
+    --purple-700: #7d55c7;
+    --purple-800: #6f42c1;
+    --purple-900: #643bae;
+    --bluegray-50: #f7f9f9;
+    --bluegray-100: #d9e0e3;
+    --bluegray-200: #bbc7cd;
+    --bluegray-300: #9caeb7;
+    --bluegray-400: #7e96a1;
+    --bluegray-500: #607d8b;
+    --bluegray-600: #526a76;
+    --bluegray-700: #435861;
+    --bluegray-800: #35454c;
+    --bluegray-900: #263238;
+    --gray-100: #e6e6e6;
+    --gray-200: #cccccc;
+    --gray-300: #b3b3b3;
+    --gray-400: #999999;
+    --gray-500: #808080;
+    --gray-600: #666666;
+    --gray-700: #4d4d4d;
+    --gray-800: #333333;
+    --gray-900: #1a1a1a;
+
+    --primary: var(--blue);
+    --secondary: var(--gray-900);
+    --success: var(--green);
+    --info: var(--cyan);
+    --warning: var(--yellow);
+    --danger: var(--red);
+    --light: var(--gray-300);
+    --dark: var(--gray-900);
+}
+
+// gray colors
+$gray-100: var(--gray-100) !default;
+$gray-300: var(--gray-300) !default;
+$gray-300: var(--gray-300) !default;
+$gray-400: var(--gray-400) !default;
+$gray-500: var(--gray-500) !default;
+$gray-600: var(--gray-600) !default;
+$gray-700: var(--gray-700) !default;
+$gray-800: var(--gray-800) !default;
+$gray-900: var(--gray-900) !default;
+
+// base colors
+$white: #ffffff !default;
+$black: #000000 !default;
+$blue: #007bff !default;
+$brown: #540000 !default;
+$indigo: var(--indigo) !default;
+$purple: var(--purple) !default;
+$pink: var(--pink) !default;
+$red: #cc0000 !default;
+$orange: #ff7200 !default;
+$yellow: #ffcc00 !default;
+$green: #1c7200 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+// theme color
+$primary: #630000 !default;
+$secondary: #1a1a1a !default;
+$danger: $red !default;
+$success: $green !default;
+$info: #20c997 !default;
+$warning: #ffcc00 !default;
+$light: #cccccc !default;
+$dark: #1a1a1a !default;
+
+$primary: $brown;
+$primary-dark: darken(
+    $color: $primary,
+    $amount: 5%,
+);
+$secondary: #09090a;
+$secondary-dark: darken(
+    $color: $secondary,
+    $amount: 5%,
+);
+
+// colors
+$colors: (
+    "primary": (
+        "bg-color": $primary,
+        "color": $white,
+    ),
+    "secondary": (
+        "bg-color": $secondary,
+        "color": $white,
+    ),
+    "danger": (
+        "bg-color": $danger,
+        "color": $white,
+    ),
+    "success": (
+        "bg-color": $success,
+        "color": $white,
+    ),
+    "info": (
+        "bg-color": $info,
+        "color": $black,
+    ),
+    "warning": (
+        "bg-color": $warning,
+        "color": $black,
+    ),
+    "light": (
+        "bg-color": $light,
+        "color": $black,
+    ),
+    "dark": (
+        "bg-color": $dark,
+        "color": $white,
+    ),
+    "white": (
+        "bg-color": $white,
+        "color": $dark,
+    ),
+);

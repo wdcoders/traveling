@@ -1,0 +1,14 @@
+// rating
+.fe-rating-outer {
+    display: flex;
+    align-items: center;
+    .fe-rating {
+        color: var(--orange);
+        margin-top: 5px;
+    }
+
+    .reviews {
+        color: var(--gray-900);
+        margin-left: 0.6rem;
+    }
+}

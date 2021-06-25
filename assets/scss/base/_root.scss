@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #f8f8f8;
+    --bg-color-dark: #{$gray-900};
+
+    --font-color-light: #{$white};
+    --font-color-dark: #{$gray-900};
+
+    --font-color-dark: var(--gray-900);
+    --font-color-light: var(--gray-200);
+
+    --primary: var(--brown);
+    --primary-dark: var(--brown-900);
+    --secondary: var(--secondary);
+
+    --font-family: #{$roboto-font};
+    --oswald-font-family: #{$oswald-font};
+    --poppins-font-family: #{$poppins-font};
+    --roboto-cond-font-family: #{$roboto-condensed-font};
+
+    --navbar-color: transparent;
+    --navbar-text-color: var(--gray-200);
+    --navbar-text-color-hover: var(--white);
+    --footer-color: #1e0000;
+}

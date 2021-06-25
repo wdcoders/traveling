@@ -1,0 +1,123 @@
+/************************************************************************************************
+RESPONSIVE
+************************************************************************************************/
+// mobile
+@include breakpoints("xs") {
+    .fe-section {
+        padding: 2rem 0;
+        .container {
+            padding: 0 1rem;
+        }
+
+        .fe-section-header {
+            margin-bottom: 1rem;
+
+            h3 {
+                margin-bottom: 1rem !important;
+                text-align: center;
+            }
+        }
+    }
+
+    .fe-header {
+        .fe-navbar {
+            .container {
+                padding: 1rem;
+                .fe-navbar-inner {
+                    .fe-navbar-nav {
+                        display: none;
+                    }
+
+                    .fe-navbar-icon {
+                        display: flex;
+                        width: 42px;
+                        height: 42px;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--white);
+                        border: 2px solid var(--white);
+                    }
+                }
+            }
+        }
+    }
+
+    // hero section
+    .fe-hero-section {
+        .fe-hero-overlay {
+            .container {
+                padding: 0 1rem;
+                flex-direction: column;
+                .fe-hero-content {
+                    text-align: center;
+                    margin-top: 4rem;
+                    h5 {
+                        font-size: 1.2rem;
+                    }
+                    h1 {
+                        font-size: 2.2rem;
+                        margin-bottom: 2rem;
+                    }
+                }
+                .fe-hero-social {
+                    flex-direction: row;
+                    margin-top: 8rem;
+
+                    li {
+                        a {
+                            font-size: 1.2rem;
+                            margin: 0 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // gallery
+    .fe-gallery {
+        .fe-gallery-layout {
+            grid-template-columns: 1fr;
+            grid-gap: 2rem;
+        }
+    }
+
+    // team
+    .fe-team {
+        .fe-team-layout {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // subscribe
+    .fe-subscribe {
+        .fe-subscribe-input {
+            form {
+                width: 75%;
+                flex-direction: column;
+
+                input {
+                    margin-bottom: 0.8rem;
+                }
+            }
+        }
+    }
+
+    // footer
+    .fe-footer {
+        .container {
+            padding: 0 1rem;
+            .fe-footer-inner {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    }
+}
+
+// tablet
+@include breakpoints("sm") {
+}
+
+// desktop
+@include breakpoints("md") {
+}
